@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinTrack Pro</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+
+        <aside class="sidebar">
+
+            <h2>Finance</h2>
+
+            <ul>
+    <li><a href="index.html">Overview</a></li>
+<li><a href="pages/transactions.html">Transactions</a></li>
+<li><a href="pages/budgets.html">Budgets</a></li>
+<li><a href="pages/pots.html">Pots</a></li>
+<li><a href="pages/bills.html">Bills</a></li>
+</ul>
+        </aside>
+
+        <!-- Main Content -->
+
+        <main class="main-content">
+
+            <h1>Overview</h1>
+
+            <div class="cards">
+
+                <div class="card balance">
+                    <h3>Current Balance</h3>
+                    <p>$4,836.00</p>
+                </div>
+
+                <div class="card">
+                    <h3>Income</h3>
+                    <p>$3,814.25</p>
+                </div>
+
+                <div class="card">
+                    <h3>Expenses</h3>
+                    <p>$1,700.50</p>
+                </div>
+
+            </div>
+
+            <div class="section">
+
+                <div class="transactions">
+                    <h2>Recent Transactions</h2>
+
+                    <div class="transaction">
+                        <span>Netflix</span>
+                        <span>-$15</span>
+                    </div>
+
+                    <div class="transaction">
+                        <span>Salary</span>
+                        <span>+$2500</span>
+                    </div>
+
+                    <div class="transaction">
+                        <span>Shopping</span>
+                        <span>-$120</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+    <div class="dashboard-grid">
+
+    <!-- Pots -->
+
+    <div class="pots">
+        <h2>Savings Pots</h2>
+
+        <div class="pot-card">
+            <h3>Travel Fund</h3>
+            <p>$850 Saved</p>
+        </div>
+
+        <div class="pot-card">
+            <h3>Emergency Fund</h3>
+            <p>$1200 Saved</p>
+        </div>
+
+    </div>
+
+    <!-- Budget -->
+
+    <div class="budget">
+        <h2>Budget Overview</h2>
+
+        <canvas id="budgetChart"></canvas>
+
+    </div>
+
+</div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
